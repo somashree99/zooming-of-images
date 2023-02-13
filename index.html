@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    <div class="card flex-center row">
+        <section class="product-img col-6">
+            <img id="mainImg" src="images/car1.jpg" alt="">
+            <div class="magnifier-lens"></div>
+        </section>
+        <section class="zoom-img col-6">
+            <div class="magnified-img"></div>
+        </section>
+    </div>
+    <div class="gallery row">
+        <div class="col-6">
+            <div class="row">
+                <div class="col-3">
+                    <section class="small-icon">
+                        <img src="images/car1.jpg" alt="" onclick="showImg(this)">
+                    </section>
+                </div>
+                <div class="col-3">
+                    <section class="small-icon">
+                        <img src="images/car2.jpg" alt="" onclick="showImg(this)">
+                    </section>
+                </div>
+                <div class="col-3">
+                    <section class="small-icon">
+                        <img src="images/car3.jpg" alt="" onclick="showImg(this)">
+                    </section>
+                </div>
+                <div class="col-3">
+                    <section class="small-icon">
+                        <img src="./images/car4.jpg" alt="" onclick="showImg(this)">
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script3.js"></script>
+</body>
+</html>
